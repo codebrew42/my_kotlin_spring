@@ -40,6 +40,10 @@ class ProductController {
 
     @GetMapping("{id}")
     fun readProductById(): ResponseEntity<Product> {
-
+        val product = productRepository.getById(id)
+        return ResponseEntity.ok(product)
     }
+
+    @RestMapping("search")
+    fun
 }
