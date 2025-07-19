@@ -50,7 +50,7 @@ Content-Type: application/json
   - [] user update products
   - [] user delete products
 ##### steps
-- [] create class 'Product'
+- [x] create class 'Product'
 - [] create class 'ProductController'
 - [] add in-memory storage, instead of database 
 - [] test your API

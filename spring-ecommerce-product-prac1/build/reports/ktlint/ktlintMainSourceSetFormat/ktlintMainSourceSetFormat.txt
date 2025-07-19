@@ -1,0 +1,19 @@
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m1[90m:1:[0m File must end with a newline (\n) [90m(standard:final-newline)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m3[90m:1:[0m Imports must be ordered in lexicographic order without any empty lines in-between with "java", "javax", "kotlin" and aliases in the end [90m(standard:import-ordering)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m15[90m:1:[0m Missing space after // [90m(standard:comment-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m16[90m:2:[0m Missing space after // [90m(standard:comment-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m17[90m:3:[0m Missing space after // [90m(standard:comment-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m24[90m:2:[0m Unexpected newline before "{" [90m(standard:curly-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m1[90m:1:[0m File must end with a newline (\n) [90m(standard:final-newline)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m1[90m:19:[0m Missing spacing before "{" [90m(standard:curly-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m2[90m:12:[0m Unexpected spacing before ":" [90m(standard:colon-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m3[90m:13:[0m Unexpected spacing before ":" [90m(standard:colon-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m4[90m:13:[0m Unexpected spacing before ":" [90m(standard:colon-spacing)[0m
+[90m/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProduct.kt[90m:[0m5[90m:15:[0m Unexpected spacing before ":" [90m(standard:colon-spacing)[0m
+
+Summary error count (descending) by rule:
+  standard:colon-spacing: 4
+  standard:comment-spacing: 3
+  standard:curly-spacing: 2
+  standard:final-newline: 2
+  standard:import-ordering: 1
