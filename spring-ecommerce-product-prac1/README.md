@@ -4,7 +4,7 @@
 
 ### practice
 
-- [] create one GetMapping, make it work
+- [] create one GetMappin[]()g, make it work
 
 
 ### step1

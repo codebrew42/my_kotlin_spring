@@ -1,3 +1,0 @@
-/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/ProductController.kt
-/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/Application.kt
-/goinfre/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/Product.kt

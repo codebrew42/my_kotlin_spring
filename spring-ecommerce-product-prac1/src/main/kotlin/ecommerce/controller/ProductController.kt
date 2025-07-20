@@ -1,12 +1,15 @@
 package ecommerce.controller
 
 import ecommerce.model.Product
+import ecommerce.model.ProductRepository
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 /* Points
+1. why using RestController? to send JSON file?
+2. RestController vs. Controller
 1. when to requestParam
 2. when to requestBody
 */
@@ -28,6 +31,47 @@ Q3. why creating getter-like function in anther class like "productRepository" i
         This makes code more maintainable and testable
 
 */
+@RestController
+@RequestMapping("/api/products")
+class ProductController {
+    val productsRepository = ProductRepository()
+
+    @GetMapping()
+    fun readAllProducts(): ResponseEntity<List<Product>> {
+        val products = productsRepository.read()
+        return ResponseEntity.ok(products)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 @RestController
 @RequestMapping("api/products")
@@ -47,3 +91,5 @@ class ProductController {
     @RestMapping("search")
     fun
 }
+
+*/

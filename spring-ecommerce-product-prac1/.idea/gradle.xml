@@ -8,7 +8,7 @@
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="/sgoinfre/goinfre/Perso/jiepark/my_kotlin_spring/spring-ecommerce-product-prac1" />
           </set>
         </option>
       </GradleProjectSettings>
