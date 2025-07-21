@@ -1,0 +1,20 @@
+[
+  {
+    "id": 12390123,
+    "name": "Latte",
+    "price": 4.45,
+    "imageUrl": "https://google.com"
+  },
+  {
+    "id": 1239323,
+    "name": "Americano",
+    "price": 3.95,
+    "imageUrl": "https://google.com"
+  },
+  {
+    "id": 1234,
+    "name": "Mom",
+    "price": 999.999,
+    "imageUrl": "gggggg.com"
+  }
+]
