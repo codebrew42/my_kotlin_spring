@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cholog.AuthTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-22T16:21:19" hostname="CP9Y10700K" time="0.738">
+  <properties/>
+  <testcase name="tokenLogin()" classname="cholog.AuthTest" time="0.738"/>
+  <system-out><![CDATA[18:21:18.453 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [cholog.AuthTest]: AuthTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:21:18.489 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration cholog.SpringAuthApplication for test class cholog.AuthTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-07-22T18:21:18.621+02:00  INFO 95057 --- [    Test worker] cholog.AuthTest                          : Starting AuthTest using Java 21.0.7 with PID 95057 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-learning-test-with-kotlin/spring-auth-1/initial)
+2025-07-22T18:21:18.622+02:00  INFO 95057 --- [    Test worker] cholog.AuthTest                          : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T18:21:18.919+02:00  INFO 95057 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-07-22T18:21:18.924+02:00  INFO 95057 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T18:21:18.924+02:00  INFO 95057 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-22T18:21:18.942+02:00  INFO 95057 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T18:21:18.943+02:00  INFO 95057 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 250 ms
+2025-07-22T18:21:19.100+02:00  INFO 95057 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63026 (http) with context path '/'
+2025-07-22T18:21:19.105+02:00  INFO 95057 --- [    Test worker] cholog.AuthTest                          : Started AuthTest in 0.576 seconds (process running for 0.927)
+Request method:	POST
+Request URI:	http://localhost:63026/login/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "email@email.com",
+    "password": "1234"
+}
+2025-07-22T18:21:19.741+02:00  INFO 95057 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T18:21:19.741+02:00  INFO 95057 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T18:21:19.742+02:00  INFO 95057 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 16:21:19 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJpYXQiOjE3NTMyMDEyNzksImV4cCI6MTc1MzIwNDg3OX0.i0vg0tB_3XhGgFdPWeyRbmXUDGD2bE2ZQjOra5nruR8"
+}
+Request method:	GET
+Request URI:	http://localhost:63026/members/me/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJpYXQiOjE3NTMyMDEyNzksImV4cCI6MTc1MzIwNDg3OX0.i0vg0tB_3XhGgFdPWeyRbmXUDGD2bE2ZQjOra5nruR8
+				Accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 16:21:19 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1,
+    "email": "email@email.com",
+    "age": 10
+}
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/jieun.park.3/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.5/58f9507f5f28d1d3e7adfb4ec2fe37c29d332c9b/byte-buddy-agent-1.17.5.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

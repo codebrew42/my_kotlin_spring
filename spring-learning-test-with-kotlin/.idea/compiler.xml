@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-learning-test.spring-auth-1.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-auth-1.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-auth-1.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-auth-1.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-auth-1.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-auth-1.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-core-1.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-core-2.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-http-client-1.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-jdbc-1.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-1.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-2.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-3.initial.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.complete" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.complete.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.complete.test" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.initial" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.initial.main" options="-parameters" />
+      <module name="spring-learning-test.spring-mvc-4.initial.test" options="-parameters" />
+    </option>
+  </component>
+</project>

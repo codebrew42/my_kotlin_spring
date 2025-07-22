@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffa55984-bf4e-4caa-86af-92d6496f4cb4" name="Changes" comment="# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32">
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.14.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/8.6/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T152904.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153041.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153100.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153109.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153202.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153221.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153225.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153227.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153751.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153758.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153802.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153812.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153837.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T153843.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T154201.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T154213.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T154232.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T154237.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T154238.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T160916.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T160932.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T160956.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162525.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162538.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162554.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162620.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162625.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162656.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162701.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162704.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162705.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162750.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162752.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162809.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162824.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/2025-07-21T162839.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/http-client.cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/spring-ecommerce-product-prac1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/META-INF/spring-ecommerce.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/ApplicationKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/model/ProductRepository$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/model/ProductRepository$deleteAll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/model/ProductRepository$deleteSingle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/classes/kotlin/main/ecommerce/model/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/reporterProviders.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/reporters.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/runKtlintCheckOverKotlinScripts_errors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/runKtlintCheckOverMainSourceSet_errors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/runKtlintFormatOverKotlinScripts_errors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/runKtlintFormatOverMainSourceSet-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/intermediates/ktLint/runKtlintFormatOverMainSourceSet_errors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/libs/spring-ecommerce-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/libs/spring-ecommerce-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/reports/ktlint/ktlintKotlinScriptCheck/ktlintKotlinScriptCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/reports/ktlint/ktlintKotlinScriptFormat/ktlintKotlinScriptFormat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/reports/ktlint/ktlintMainSourceSetCheck/ktlintMainSourceSetCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/reports/ktlint/ktlintMainSourceSetFormat/ktlintMainSourceSetFormat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/reports/problems/problems-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/resources/main/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/resources/main/templates/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/kotlin/ecommerce/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/kotlin/ecommerce/controller/ProductController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/kotlin/ecommerce/model/Product.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/kotlin/ecommerce/model/ProductRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/resources/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/main/resources/templates/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-ecommerce-product-prac1-linux/src/test/kotlin/ecommerce/.gitkeep" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-ecommerce" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="300oDfLYt0648G5xEv3kACYzRFp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build spring-ecommerce-product-myrepo.executor": "Run",
+    "HTTP Request.generated-requests | #44.executor": "Run",
+    "Kotlin.ApplicationKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Kotlin.ApplicationKt">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #44" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#44" index="44" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecommerce.ApplicationKt" />
+      <module name="spring-ecommerce-product-prac2-mac.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-ecommerce-product-myrepo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-ecommerce-product-myrepo" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-ecommerce.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ecommerce.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ApplicationKt" />
+        <item itemvalue="HTTP Request.generated-requests | #44" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffa55984-bf4e-4caa-86af-92d6496f4cb4" name="Changes" comment="" />
+      <created>1752773732489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752773732489</updated>
+      <workItem from="1752773733561" duration="2310000" />
+      <workItem from="1752784539041" duration="167000" />
+      <workItem from="1752828743358" duration="764000" />
+      <workItem from="1753108991159" duration="1389000" />
+      <workItem from="1753110665348" duration="477000" />
+      <workItem from="1753111211272" duration="294000" />
+      <workItem from="1753111550474" duration="636000" />
+      <workItem from="1753112230941" duration="147000" />
+      <workItem from="1753112393076" duration="388000" />
+      <workItem from="1753112953151" duration="912000" />
+      <workItem from="1753113904819" duration="1979000" />
+      <workItem from="1753166410614" duration="40000" />
+      <workItem from="1753169227907" duration="926000" />
+    </task>
+    <task id="LOCAL-00001" summary="style: change table's name to lowercase">
+      <option name="closed" value="true" />
+      <created>1753114021569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753114021569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove: unnecessary JPA-related configurations&#10;# 제목은 대문자로 시작합니다.&#10;&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32">
+      <option name="closed" value="true" />
+      <created>1753114235251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753114235251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove: unnecessary requestMapping-related lines&#10;# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32">
+      <option name="closed" value="true" />
+      <created>1753114461170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753114461170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="style: change &#10;# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+    <MESSAGE value="style: change table's name to lowercase&#10;# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+    <MESSAGE value="feat:" />
+    <MESSAGE value="style:" />
+    <MESSAGE value="style: change table's name to lowercase" />
+    <MESSAGE value="remove: unnecessary JPA-related configurations&#10;# 제목은 대문자로 시작합니다.&#10;&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+    <MESSAGE value="remove: unnecessary requestMapping-related lines&#10;# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+    <MESSAGE value="# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 제목은 대문자로 시작합니다.&#10;# 본문과 푸터는 선택 사항 입니다.&#10;#######제목#######&#10;&#10;#######본문#######&#10;&#10;#######푸터#######&#10;&#10;# --- COMMIT END ---&#10;#   &lt;타입&gt; 리스트&#10;#   feat        : 기능 (새로운 기능)&#10;#   fix         : 버그 (버그 수정)&#10;#   refactor    : 리팩토링&#10;#   design      : CSS 등 사용자 UI 디자인 변경&#10;#   comment     : 필요한 주석 추가 및 변경&#10;#   style       : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs        : 문서 수정 (문서 추가, 수정, 삭제, README)&#10;#   test        : 테스트 코드 추가, 수정, 삭제&#10;#   chore       : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   init        : 초기 생성&#10;#   rename      : 이름 수정&#10;#   remove      : 삭제&#10;&#10;#   제목 첫 글자 대문자, 명령형, 마침표 금지&#10;#   본문은 무엇을/왜를 중심으로&#10;#   꼬리말 예: Fixes: #47, Related to: #32" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

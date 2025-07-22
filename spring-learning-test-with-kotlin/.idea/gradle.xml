@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/spring-auth-1" />
+            <option value="$PROJECT_DIR$/spring-auth-1/complete" />
+            <option value="$PROJECT_DIR$/spring-auth-1/initial" />
+            <option value="$PROJECT_DIR$/spring-core-1" />
+            <option value="$PROJECT_DIR$/spring-core-1/complete" />
+            <option value="$PROJECT_DIR$/spring-core-1/initial" />
+            <option value="$PROJECT_DIR$/spring-core-2" />
+            <option value="$PROJECT_DIR$/spring-core-2/complete" />
+            <option value="$PROJECT_DIR$/spring-core-2/initial" />
+            <option value="$PROJECT_DIR$/spring-http-client-1" />
+            <option value="$PROJECT_DIR$/spring-http-client-1/complete" />
+            <option value="$PROJECT_DIR$/spring-http-client-1/initial" />
+            <option value="$PROJECT_DIR$/spring-jdbc-1" />
+            <option value="$PROJECT_DIR$/spring-jdbc-1/complete" />
+            <option value="$PROJECT_DIR$/spring-jdbc-1/initial" />
+            <option value="$PROJECT_DIR$/spring-mvc-1" />
+            <option value="$PROJECT_DIR$/spring-mvc-1/complete" />
+            <option value="$PROJECT_DIR$/spring-mvc-1/initial" />
+            <option value="$PROJECT_DIR$/spring-mvc-2" />
+            <option value="$PROJECT_DIR$/spring-mvc-2/complete" />
+            <option value="$PROJECT_DIR$/spring-mvc-2/initial" />
+            <option value="$PROJECT_DIR$/spring-mvc-3" />
+            <option value="$PROJECT_DIR$/spring-mvc-3/complete" />
+            <option value="$PROJECT_DIR$/spring-mvc-3/initial" />
+            <option value="$PROJECT_DIR$/spring-mvc-4" />
+            <option value="$PROJECT_DIR$/spring-mvc-4/complete" />
+            <option value="$PROJECT_DIR$/spring-mvc-4/initial" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

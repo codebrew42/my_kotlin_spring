@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProductControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProductControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ecommerce.controller.html">ecommerce.controller</a> &gt; ProductControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.545s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createProduct()</td>
+<td class="success">0.097s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteProduct()</td>
+<td class="success">0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getProduct()</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getProduct_notFound()</td>
+<td class="success">0.105s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getProducts()</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">patchProduct()</td>
+<td class="success">0.093s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateProduct()</td>
+<td class="success">0.962s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:34:19.499 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ecommerce.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:34:19.541 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ecommerce.Application for test class ecommerce.controller.ProductControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:19.679+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:19.679+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:20.086+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:20.090+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:20.090+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:20.107+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:20.107+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2025-07-22T09:34:20.146+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T09:34:20.196+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:20.197+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T09:34:20.313+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:20.380+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:20.384+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.796 seconds (process running for 1.217)
+2025-07-22T09:34:20.386+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:20.389+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:20.390+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T09:34:20.397+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:20.406+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:20.406+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:20.461+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:20.461+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:20.461+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:20.466+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:20.466+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 59 ms
+2025-07-22T09:34:20.474+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-07-22T09:34:20.476+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:20.477+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-07-22T09:34:20.502+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:20.509+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:20.510+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.111 seconds (process running for 1.343)
+2025-07-22T09:34:21.102+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.102+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.102+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Request method:	PUT
+Request URI:	http://localhost:8080/api/products/6
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;id&quot;: null,
+    &quot;name&quot;: &quot;Gaming Mouse&quot;,
+    &quot;price&quot;: 45.0,
+    &quot;imageUrl&quot;: null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Gaming Mouse&quot;,
+    &quot;price&quot;: 45.0,
+    &quot;imageUrl&quot;: null
+}
+2025-07-22T09:34:21.348+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.349+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.350+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-07-22T09:34:21.350+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.358+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.358+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.407+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.407+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.407+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.412+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.412+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 54 ms
+2025-07-22T09:34:21.418+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-07-22T09:34:21.419+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn14: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.419+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-07-22T09:34:21.437+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.441+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.442+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.09 seconds (process running for 2.275)
+2025-07-22T09:34:21.446+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.446+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.447+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+NotFoundException occurred: Product with Id: 999999. Not found.
+HTTP/1.1 404 
+Content-Length: 0
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+2025-07-22T09:34:21.454+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.455+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.455+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-07-22T09:34:21.456+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.463+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.463+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.503+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.504+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.504+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.508+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.508+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 45 ms
+2025-07-22T09:34:21.513+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-07-22T09:34:21.514+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn15: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.514+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-07-22T09:34:21.529+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.534+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.534+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.077 seconds (process running for 2.367)
+2025-07-22T09:34:21.540+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.540+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.540+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+HTTP/1.1 204 
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+NotFoundException occurred: Product with Id: 6. Not found.
+HTTP/1.1 404 
+Content-Length: 0
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+2025-07-22T09:34:21.557+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.558+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.559+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-07-22T09:34:21.559+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.566+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.566+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.603+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.603+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.603+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.607+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.607+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 41 ms
+2025-07-22T09:34:21.612+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-07-22T09:34:21.613+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn16: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.613+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-07-22T09:34:21.628+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.632+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.633+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.072 seconds (process running for 2.466)
+2025-07-22T09:34:21.638+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.638+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.638+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Speaker&quot;,
+    &quot;price&quot;: 99.99,
+    &quot;imageUrl&quot;: null
+}
+2025-07-22T09:34:21.655+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.656+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.656+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-07-22T09:34:21.657+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.663+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.663+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.696+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.697+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.697+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.701+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.701+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 38 ms
+2025-07-22T09:34:21.705+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-07-22T09:34:21.706+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn17: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.706+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-07-22T09:34:21.720+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.724+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.725+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.067 seconds (process running for 2.558)
+Request method:	GET
+Request URI:	http://localhost:8080/api/products
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+2025-07-22T09:34:21.728+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.728+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.729+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Car&quot;,
+        &quot;price&quot;: 1000.0,
+        &quot;imageUrl&quot;: &quot;https://images.unsplash.com/photo-1494905998402-395d579af36f?w=400&amp;h=400&amp;fit=crop&quot;
+    },
+    {
+        &quot;id&quot;: 2,
+        &quot;name&quot;: &quot;Bike&quot;,
+        &quot;price&quot;: 200.0,
+        &quot;imageUrl&quot;: &quot;https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&amp;h=400&amp;fit=crop&quot;
+    },
+    {
+        &quot;id&quot;: 3,
+        &quot;name&quot;: &quot;Truck&quot;,
+        &quot;price&quot;: 30000.0,
+        &quot;imageUrl&quot;: &quot;https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&amp;h=400&amp;fit=crop&quot;
+    },
+    {
+        &quot;id&quot;: 4,
+        &quot;name&quot;: &quot;Laptop&quot;,
+        &quot;price&quot;: 1500.0,
+        &quot;imageUrl&quot;: &quot;https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&amp;h=400&amp;fit=crop&quot;
+    },
+    {
+        &quot;id&quot;: 5,
+        &quot;name&quot;: &quot;Phone&quot;,
+        &quot;price&quot;: 800.0,
+        &quot;imageUrl&quot;: &quot;https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&amp;h=400&amp;fit=crop&quot;
+    }
+]
+2025-07-22T09:34:21.742+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.743+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.744+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-07-22T09:34:21.744+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.750+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.750+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.785+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.785+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.785+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.789+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.789+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 39 ms
+2025-07-22T09:34:21.793+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-07-22T09:34:21.794+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn18: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.794+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-07-22T09:34:21.808+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.812+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.813+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.067 seconds (process running for 2.645)
+2025-07-22T09:34:21.817+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.817+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.818+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Request method:	PATCH
+Request URI:	http://localhost:8080/api/products/6
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;price&quot;: 249.0
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Tablet&quot;,
+    &quot;price&quot;: 249.0,
+    &quot;imageUrl&quot;: null
+}
+2025-07-22T09:34:21.836+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T09:34:21.837+02:00  INFO 77666 --- [spring-ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T09:34:21.837+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-07-22T09:34:21.837+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-22T09:34:21.843+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Starting ProductControllerTest using Java 21.0.7 with PID 77666 (started by jieun.park.3 in /Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac2-mac)
+2025-07-22T09:34:21.843+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-07-22T09:34:21.889+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T09:34:21.889+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T09:34:21.889+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T09:34:21.893+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T09:34:21.893+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 49 ms
+2025-07-22T09:34:21.898+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-07-22T09:34:21.898+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn19: url=jdbc:h2:mem:testdb user=SA
+2025-07-22T09:34:21.898+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-07-22T09:34:21.912+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-22T09:34:21.915+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T09:34:21.918+02:00  INFO 77666 --- [spring-ecommerce] [    Test worker] e.controller.ProductControllerTest       : Started ProductControllerTest in 0.08 seconds (process running for 2.751)
+Request method:	POST
+Request URI:	http://localhost:8080/api/products
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;id&quot;: null,
+    &quot;name&quot;: &quot;Monitor&quot;,
+    &quot;price&quot;: 150.0,
+    &quot;imageUrl&quot;: &quot;https://example.com/monitor.jpg&quot;
+}
+2025-07-22T09:34:21.923+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T09:34:21.923+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T09:34:21.923+02:00  INFO 77666 --- [spring-ecommerce] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+HTTP/1.1 201 
+Location: /api/products/6
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 22 Jul 2025 07:34:21 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Monitor&quot;,
+    &quot;price&quot;: 150.0,
+    &quot;imageUrl&quot;: &quot;https://example.com/monitor.jpg&quot;
+}
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/jieun.park.3/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.6/17b32fd9f57deef02842f7f05abc4ad8127fe34e/byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at Jul 22, 2025, 9:34:22 AM</p>
+</div>
+</div>
+</body>
+</html>
