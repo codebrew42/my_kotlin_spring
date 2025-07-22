@@ -1,0 +1,18 @@
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/[0mApplication.kt[90m:[0m7[90m:19:[0m Unnecessary block ("{}") [90m(standard:no-empty-class-body)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/controller/[0mProductController.kt[90m:[0m24[90m:1:[0m a block comment may not be preceded by a block comment [90m(standard:no-consecutive-comments)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m4[90m:34:[0m Unnecessary long whitespace [90m(standard:no-multi-spaces)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m4[90m:35:[0m Expected a single white space before start of function body [90m(standard:function-start-of-body-spacing)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m4[90m:35:[0m Expected a single space before body block [90m(standard:function-signature)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m42[90m:16:[0m Unnecessary long whitespace [90m(standard:no-multi-spaces)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m42[90m:17:[0m Expected a single white space before start of function body [90m(standard:function-start-of-body-spacing)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m42[90m:17:[0m Expected a single space before body block [90m(standard:function-signature)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m65[90m:47:[0m Unnecessary long whitespace [90m(standard:no-multi-spaces)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m65[90m:48:[0m Expected a single white space before start of function body [90m(standard:function-start-of-body-spacing)[0m
+[90m/Users/jieun.park.3/Downloads/coding/general-spring-note/my_kotlin_spring-myrepo/spring-ecommerce-product-prac1/src/main/kotlin/ecommerce/model/[0mProductRepository.kt[90m:[0m65[90m:48:[0m Expected a single space before body block [90m(standard:function-signature)[0m
+
+Summary error count (descending) by rule:
+  standard:function-signature: 3
+  standard:function-start-of-body-spacing: 3
+  standard:no-multi-spaces: 3
+  standard:no-consecutive-comments: 1
+  standard:no-empty-class-body: 1
